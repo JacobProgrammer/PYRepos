@@ -95,3 +95,12 @@ if homestate == " Florida" or  homestate == " florida":
         print("The optimal city for you to shop is Highland Beach")
     else:
         print("The optimal are for you to shop is Sunny Isles")
+if homestate == " Georgia" or homestate == " georgia":
+    greeting()
+    price9 = price()
+    if price9 > 1000000:
+        print("The optimal city for you to shop is Milton")
+    elif 999 > price9 > 500:
+        print("The optimal city for you to shop is Atlana")
+    else:
+        print("The optimal are for you to shop is Greensboro")
