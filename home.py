@@ -104,3 +104,30 @@ if homestate == " Georgia" or homestate == " georgia":
         print("The optimal city for you to shop is Atlana")
     else:
         print("The optimal are for you to shop is Greensboro")
+if homestate == " Hawaii" or homestate == " hawaii":
+    greeting()
+    price10 = price()
+    if price10 > 1000000:
+        print("The optimal city for you to shop is Wailea")
+    elif 999 > price10 > 500:
+        print("The optimal city for you to shop is Kapolei")
+    else:
+        print("The optimal city for you to shop is Waianae")
+if homestate == " Idaho" or homestate == " idaho":
+    greeting()
+    price11 = price()
+    if price11 > 1000000:
+        print("The optimal city for you to shop is Ketchum")
+    elif 999 > price11 > 500:
+        print("The optimal city for you to shop is Eagle")
+    else:
+        print("The optimal city for you to shop is Star")
+if homestate == " Illinois" or homestate == " illinois":
+    greeting()
+    price12 = price()
+    if price12 > 1000000:
+        print("The optimal city for you to shop is ")
+    elif 999 > price12 > 500:
+        print("The optimal city for you to shop is ")
+    else:
+        print("The optimal city for you to shop is ")
