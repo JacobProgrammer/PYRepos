@@ -126,8 +126,26 @@ if homestate == " Illinois" or homestate == " illinois":
     greeting()
     price12 = price()
     if price12 > 1000000:
-        print("The optimal city for you to shop is ")
+        print("The optimal city for you to shop is Hinsdale")
     elif 999 > price12 > 500:
-        print("The optimal city for you to shop is ")
+        print("The optimal city for you to shop is Burr Ridge")
     else:
-        print("The optimal city for you to shop is ")
+        print("The optimal city for you to shop is Barrington")
+if homestate == " Indiana" or homestate == " indiana":
+    greeting()
+    price13 = price()
+    if price13 > 1000000:
+        print("The optimal city for you to shop in is Zionsville")
+    elif 999 > price13 > 500:
+        print("The optimal city for you to shop in is Carmel")
+    else:
+        print("The optimal city for you to shop in is Westfield")
+if homestate == " Iowa" or homestate == " iowa":
+    greeting()
+    price14 = price()
+    if price14 > 1000000:
+        print("The optimal city for you to shop in is Bettendorf")
+    elif 999 > price14 > 500:
+        print("The optimal city for you to shop in is Johnston")
+    else:
+        print("The optimal city for you to shop in is Coralville")
