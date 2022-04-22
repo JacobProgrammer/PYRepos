@@ -149,3 +149,15 @@ if homestate == " Iowa" or homestate == " iowa":
         print("The optimal city for you to shop in is Johnston")
     else:
         print("The optimal city for you to shop in is Coralville")
+if homestate == " Kansas" or homestate == " kansas":
+    greeting()
+    price15 = price()
+    if price15 > 1000000:
+        print("The optimal city for you to shop in Leawood")
+    elif 999 > price15 > 500:
+        print("The optimal city for you to shop in is Overland Park")
+    else:
+        print("The optimal city for you to shop in is Lenexa")
+if homestate == " Kentucky" or homestate == " kentucky":
+    greeting()
+    price16 = price()
