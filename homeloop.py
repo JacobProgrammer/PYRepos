@@ -24,4 +24,5 @@ realhome1 = True
 realhome2 = True
 realhome3 = True
 while realhome1:
-
+    homestate = input("What state would you like to live in")
+    print("Based on your state selection of", homestate, "the optimal cities for you to shop in are:")
